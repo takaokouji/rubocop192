@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Rubocop192::VERSION
   spec.authors       = ["Kouji Takao"]
   spec.email         = ["kouji.takao@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{rubocop192 can used [Rubocop](https://github.com/bbatsov/rubocop) on Ruby 1.9.2.}
+  spec.summary       = %q{Rubocop for Ruby 1.9.2. (unofficial)}
+  spec.homepage      = "https://github.com/takaokouji/rubocop192"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+
+  spec.add_runtime_dependency "rubocop"
 end
