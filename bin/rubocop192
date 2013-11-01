@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+# encoding: utf-8
+
+require 'rubocop192'
+
+version = '>= 0'
+
+gem 'rubocop', version
+load Gem.bin_path('rubocop', 'rubocop', version)

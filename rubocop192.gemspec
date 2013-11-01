@@ -6,6 +6,7 @@ require 'rubocop192/version'
 Gem::Specification.new do |spec|
   spec.name          = "rubocop192"
   spec.version       = Rubocop192::VERSION
+  spec.required_ruby_version = '>= 1.9.2'
   spec.authors       = ["Kouji Takao"]
   spec.email         = ["kouji.takao@gmail.com"]
   spec.description   = %q{rubocop192 can used [Rubocop](https://github.com/bbatsov/rubocop) on Ruby 1.9.2.}
